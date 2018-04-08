@@ -86,7 +86,7 @@ BLYNK_WRITE(V10)
 
     // Send it back
     //terminal.print("You said:");
-    //terminal.write(param.getBuffer(), param.getLength());
+    //Terminal.write(param.getBuffer(), param.getLength());
     terminal.println(param.asStr());
 
   Serial.println(param.asStr());
